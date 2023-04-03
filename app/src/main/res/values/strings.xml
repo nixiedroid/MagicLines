@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MagicLines</string>
+    <string name="settings">Settings</string>
+    <string name="applyLWP">Apply</string>
+    <string name="lwpDesc">Rotating colorful waves</string>
+    <string name="customColorsName">Custom colors</string>
+    <string name="autoDarkModeName">Auto Dark Mode</string>
+    <string name="isDarkName">Dark Mode</string>
+    <string name="waveStyleName">Wave Style</string>
+    <string name="waveStyleDescName">Choose wave style from predefined presets</string>
+    <string name="customPrimaryColorName">Primary Color</string>
+    <string name="customColorDescName">Put your favourite color HEX</string>
+    <string name="customAccentColorName">Accent Color</string>
+    <string name="bloomDisableName">Disable Bloom</string>
+    <string name="bloomDisableDescName">Disable that thing on background</string>
+</resources>

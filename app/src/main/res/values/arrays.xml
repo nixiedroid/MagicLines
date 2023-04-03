@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item>Emerald</item>
+        <item>Sapphire</item>
+        <item>Gold</item>
+        <item>Ruby</item>
+        <item>Amethyst</item>
+        <item>Amber</item>
+        <item>Monet</item>
+    </string-array>
+
+</resources>

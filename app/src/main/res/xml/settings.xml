@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="autoDark"
+        android:title="@string/autoDarkModeName"
+        android:disableDependentsState="true"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="alwaysDark"
+        android:title="@string/isDarkName"
+        android:dependency="autoDark" />
+
+<!--    This would not be beautiful-->
+<!--    <SwitchPreference-->
+<!--        android:defaultValue="true"-->
+<!--        android:key="bgBloom"-->
+<!--        android:title="@string/bloomDisableName"-->
+<!--        android:summary="@string/bloomDisableDescName"-->
+<!--        android:dependency="autoDark" />-->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="customColors"
+        android:title="@string/customColorsName"
+        android:disableDependentsState="true" />
+    <ListPreference
+        android:key="waveStyle"
+        android:title="@string/waveStyleName"
+        android:summary="@string/waveStyleDescName"
+        android:defaultValue="Monet"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_names"
+        android:dependency="customColors"/>
+    <EditTextPreference
+        android:key="primaryColor"
+        android:title="@string/customPrimaryColorName"
+        android:summary="@string/customColorDescName"
+        android:hint="#000000"/>
+    <EditTextPreference
+        android:key="accentColor"
+        android:title="@string/customAccentColorName"
+        android:summary="@string/customColorDescName"
+        android:hint="#FACE8A"/>
+</PreferenceScreen>
